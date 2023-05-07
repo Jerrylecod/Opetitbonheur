@@ -9,12 +9,14 @@ h1{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-size: 100%;
 }
 /* taille des images pour le slide */
 .image {
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
+    
 }
 /* Centrer les images */
 .slider{
