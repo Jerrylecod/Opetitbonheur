@@ -4,12 +4,20 @@ body{
     margin: 0px;
     padding: 0px;
 }
-/* Design du titre */
+/* Design du titre et adaptation de la taille  */
+.bottle-title {
+    width: 100%;
+    height: auto;
+    background-color: rgb(189, 131, 44);
+}
 h1{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    font-size: 100%;
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    
+    
 }
 /* taille des images pour le slide */
 .image {
@@ -22,5 +30,16 @@ h1{
 .slider{
     display: flex;
     justify-content: center;
+}
+.intro{
+    color: white;
+    width: 80%;
+    height: auto;
+    margin: 5%;
+    font-size: 1.5rem;
+}
+span{
+    font-size:0.8rem;
+    font-family: 'Vujahday Script', cursive;
 }
 
