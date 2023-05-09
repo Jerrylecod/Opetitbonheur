@@ -19,9 +19,8 @@ h1{
     
     
 }
-/* taille des images pour le slide */
+/* taille des images pour le bandeau */
 .image {
-    display: inline-block;
     width: 100%;
     height: auto;
     
@@ -31,15 +30,35 @@ h1{
     display: flex;
     justify-content: center;
 }
+/* Création de l'intro */
 .intro{
     color: white;
     width: 80%;
     height: auto;
     margin: 5%;
+    margin-bottom: 2%;
     font-size: 1.5rem;
 }
 span{
     font-size:0.8rem;
     font-family: 'Vujahday Script', cursive;
+/* Panneau des horaires */
 }
-
+.hours{
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+.title-hours{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.title-hours ul li{
+    margin:0 20%;
+    font-size: 2em;
+    list-style-type: none;
+    color: rgb(245, 243, 243);
+    text-shadow: 1px 1px 1px rgb(2, 2, 2);
+    
+}
