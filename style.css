@@ -20,7 +20,7 @@ h1{
     
 }
 /* taille des images pour le bandeau */
-.image,.image-resto {
+.image,.image-resto,.soliday {
     width: 100%;
     height: auto;
     
@@ -46,10 +46,14 @@ section{
     margin: 5%;
     margin-bottom: 2%;
     font-size: 1.5rem;
+    padding: 2%;
 }
+/* Stylisation du span "petit" du restaurant */
 span{
     font-size:0.8rem;
     font-family: 'Vujahday Script', cursive;
+    color: yellow;
+
 /* Panneau des horaires */
 }
 .hours{
@@ -67,7 +71,8 @@ span{
     font-size: 2em;
     list-style-type: none;
     color: rgb(245, 243, 243);
-    text-shadow: 1px 1px 1px rgb(210, 131, 13);
+    text-shadow: 1px 1px 1px rgb(14, 13, 13);
+    
     
 }
 .WelcomePage {
@@ -91,4 +96,19 @@ span{
    opacity: 0.8;
    text-shadow: 1px 3px 1px black;
    
+}
+/* Presentation de la carte spéciale */
+.grid-container{
+    display:grid;
+    grid-template-columns: 100VW auto;
+}
+
+
+
+/* adapter le titre de bienvenu a la taille de l'ecran a partir de 1025px */
+@media screen and (min-width: 1025px) {
+	.WelcomePage h2{
+        margin-top: 457px;
+        
+    }
 }
